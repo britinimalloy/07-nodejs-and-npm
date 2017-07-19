@@ -30,5 +30,6 @@ app.post('/articles', bodyParser, function(request, response) {
 
 app.listen(PORT, function() {
   // TODO: Log to the console a message that lets you know which port your server has started on
-  
+  //Completed in 5 minutes - console.log logs to the terminal correctly
+  console.log(`Server started on ${PORT}`);
 });
